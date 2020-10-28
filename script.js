@@ -37,9 +37,6 @@ likeButton.addEventListener('click', function(e) {
     }
 });
 
-addComment.addEventListener('input', function(e) {
-})
-
 form.addEventListener('submit', function(e) {
     e.preventDefault();
     const person = prompt('enter your name', '');
