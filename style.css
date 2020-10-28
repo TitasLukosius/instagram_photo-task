@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 20%;
+    font-family: Pacifico,cursive;
+    background-color: #fafafa;
+}
+
+input {
+    outline: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    background-color: white;
+}
+
+.header-container {
+    max-width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 20px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+#insta, #vline {
+    transition: .3s;
+}
+
+.left-side, .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side i {
+    font-size: 34px;
+}
+
+.logo-title {
+    font-size: 24px;
+    margin: 0 4px;
+}
+
+.vertical-line {
+    background-color: #262626;
+    height: 28px;
+    margin: 0 16px;
+    width: 1px;
+}
+
+.input-icon {
+    width: 220px;
+    height: 30px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    color: #9999AF;
+}
+
+.input-icon i {
+    font-size: 15px;
+}
+
+.input-icon input {
+    border: none;
+    margin: 0;
+    width: 50px;
+    background-color: #FAFAFA;
+}
+
+.right-side {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.right-side i {
+    font-size: 34px;
+    margin-right: 24px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 136px;
+    max-width: 614px;
+    width: 100%;
+    border: 1px solid #e6e6e6
+}
+
+.card-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+    background: #fff;
+}
+
+.image-div {
+    width: 34px;
+    height: 34px;
+    border: 2px solid salmon;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.card-title img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.card-image {
+    background: url('https://i.insider.com/5a271fbe7101ad7b9647b9e0?width=1100&format=jpeg&auto=webp');
+    height: 600px;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.heart-comment, .likes, .comments, .add-comment {
+    margin: 8px 0;
+}
+
+.card-comments {
+    font-family: none;
+    padding: 0 16px;
+}
+
+.heart-comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.heart-comment i {
+    cursor: pointer;
+}
+
+.add-comment-box {
+    border-top: 1px solid #efefef;
+    height: 56px;
+    line-height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add-comment-box input {
+    flex: 1;
+    height: 18px;
+    border: none;
+    background: inherit;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 776px) {
+    .input-icon {
+        display: none;
+    }
+}    
